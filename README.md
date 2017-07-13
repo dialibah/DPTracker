@@ -24,7 +24,7 @@ At this step, you have the two **web** and **api** module in your project direct
  >
  > The `develop` branch is for integration tasks
 
-## DPTtacker-api
+## DPTtacker-api [![Build Status](https://travis-ci.org/dialibah/DPTracker-api.svg?branch=master)](https://travis-ci.org/dialibah/DPTracker-api)
 
 To build and run your DPTracker-api module run these commands :
   ```bash
