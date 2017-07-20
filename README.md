@@ -32,7 +32,7 @@ mvn clean install
 mvn spring-boot:run
 ```
 
-## DPTtacker-web
+## DPTtacker-web [![Build Status](https://travis-ci.org/dialibah/DPTracker-web.svg?branch=master)](https://travis-ci.org/dialibah/DPTracker-web)
 
 To build and run your DPTracker-web module run these commands :
   ```bash
