@@ -8,6 +8,10 @@ This repository contains all documentations and environnement scripts
  * **DPTracker-api:** The java (*springboot based*) application referring to the wep-api
  * **DPTracker-web:** The UI, an Angular 2 application made with webpack, sass and bootstrap
 
+ ## Prerequisite
+ * Install JDK 8 (oracle)
+ * Install Maven
+ * Install NodeJS
  ## Install modules
  First clone the project DPTracker in your project directory `mkdir dpt && cd dpt`:
 ```bash
@@ -28,6 +32,7 @@ At this step, you have the two **web** and **api** module in your project direct
 
 To build and run your DPTracker-api module run these commands :
   ```bash
+  git checkout develop
 mvn clean install
 mvn spring-boot:run
 ```
@@ -36,8 +41,10 @@ mvn spring-boot:run
 
 To build and run your DPTracker-web module run these commands :
   ```bash
+  git checkout develop
   npm install
-  npm run watch
+  npm run dev
 ```
+[http://localhost:8080/]()
 
 ## TODO Nginx Env
