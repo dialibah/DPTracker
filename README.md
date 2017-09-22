@@ -11,6 +11,7 @@ This repository contains all documentations and environnement scripts
  ## Prerequisite
  * Install JDK 8 (oracle)
  * Install Maven
+ * Install MongoDB
  * Install NodeJS
  ## Install modules
  First clone the project DPTracker in your project directory `mkdir dpt && cd dpt`:
